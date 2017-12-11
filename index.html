@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>官网首页|index</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <!--<script  src="js/jquery-1.11.3.js"></script>-->
+    <script  type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <!--音乐-->
+    <embed id="music" width="100" height="40" title="音乐" loop="true"
+           src="music/music.swf" quality="high" wmode="transparent"
+           pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"
+           repeat="true" playcount="true" type="application/x-shockwave-flash">
+    <!--导航-->
+    <div class="nav">
+        <div class="nav-bar">
+            <div class="nav-bar-inner con clearfix">
+                <div class="nav-bar-inner-r fr">
+                    <a href="#" class="a_hover"><p class="b-font">官网首页</p><p class="s-font">HOME</p></a>
+                    <a href="news.html" target="_blank" class="a_hover"><p class="b-font">游戏新闻</p><p class="s-font">NEWS</p></a>
+                    <a href="role.html" target="_blank" class="a_hover"><p class="b-font">游戏资料</p><p class="s-font">INFO</p></a>
+                    <a href="#" class="a_hover"><p class="b-font">客服中心</p><p class="s-font">SERVICE</p></a>
+                </div>
+                <a href="#" class="nav-logo"><img src="images/index/logo.png"></a>
+            </div>
+        </div>
+    </div>
+    <!--按钮-->
+    <div class="blank con">
+        <div class="blank-img"><img src="images/index/Big_title.png"></div>
+        <div class="blank-btn">
+            <a href="#">
+                <p class="b-font">购买游戏</p>
+                <p>BUY</p>
+                <i></i>
+            </a>
+            <a href="#" style="margin:0 22px">
+                <p class="b-font">下载游戏</p>
+                <p>DOWNLOAD</p>
+            </a>
+            <a href="#" style="margin-right: 22px">
+                <p class="b-font">官方商城</p>
+                <p>SHOP</p>
+            </a>
+            <a href="#">
+                <p class="b-font">激活游戏</p>
+                <p>GAME</p>
+            </a>
+        </div>
+    </div>
+    <!--轮播+新闻-->
+    <div class="slide-new con clearfix">
+        <!--left carousel-->
+        <div class="slide-con fl">
+            <!--轮播点-->
+            <div id="buttons">
+                <span index="1" class="on"></span>
+                <span index="2"></span>
+                <span index="3"></span>
+                <span index="4"></span>
+                <span index="5"></span>
+            </div>
+            <!--轮播图-->
+            <div class="slide-con-inner">
+                <ul class="clearfix" style="left:-720px" id="list">
+                    <li><a href="#"><img src="images/index/banner5.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="images/index/banner1.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="images/index/banner2.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="images/index/banner3.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="images/index/banner4.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="images/index/banner5.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="images/index/banner1.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+            <a href="javascript:;" id="prev" class="arrow"></a>
+            <a href="javascript:;" id="next" class="arrow"></a>
+        </div>
+        <!--right news-->
+        <div class="news-con fl">
+            <div class="news-con-title">
+                <i class="active">综合</i>
+                <i>新闻</i>
+                <i>公告</i>
+            </div>
+            <div class="news-con-list-con">
+                <div class="news-list active">
+                    <div class="news-list-title">
+                        <a href="#">[公告]《俠客風雲傳前傳》1.0.2.8升級補丁公告</a>
+                    </div>
+                    <ul>
+                        <li><a href="#"><span>[新聞]俠客風雲傳前傳大型DLC幽冥路今日正式發布！</span><span class="time">09/28</span></a></li>
+                        <li><a href="#"><span>[新聞]俠客風雲傳前傳幽冥路預熱活動開啓！</span><span class="time">09/28</span></a></li>
+                        <li><a href="#"><span>[新聞]新模式！新玩法！幽冥路解析</span><span class="time">09/19</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳》本體更新預告</span><span class="time">09/15</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳：幽冥路》最新人設曝光！</span><span class="time">09/11</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳》DLC幽冥路，正式公布！</span><span class="time">09/06</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳》新年獻禮，全新限量周邊感恩發布</span><span class="time">09/28</span></a></li>
+                    </ul>
+                </div>
+                <div class="news-list">
+                    <div class="news-list-title">
+                        <a href="#">[新聞]俠客風雲傳前傳大型DLC幽冥路今日正式發布！</a>
+                    </div>
+                    <ul>
+                        <li><a href="#"><span>[新聞]俠客風雲傳前傳幽冥路預熱活動開啓！</span><span class="time">09/25</span></a></li>
+                        <li><a href="#"><span>[新聞]新模式！新玩法！幽冥路解析</span><span class="time">09/28</span></a></li>
+                        <li><a href="#"><span>[新聞]新模式！新玩法！幽冥路解析</span><span class="time">09/19</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳》本體更新預告</span><span class="time">09/15</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳》DLC幽冥路，正式公布！</span><span class="time">09/06</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳》新年獻禮，全新限量周邊感恩發布</span><span class="time">09/28</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳：幽冥路》最新人設曝光！</span><span class="time">09/11</span></a></li>
+                    </ul>
+                </div>
+                <div class="news-list">
+                    <div class="news-list-title">
+                        <a href="#">[公告]《俠客風雲傳前傳》1.0.2.8升級補丁公告</a>
+                    </div>
+                    <ul>
+                        <li><a href="#"><span>[新聞]俠客風雲傳前傳大型DLC幽冥路今日正式發布！</span><span class="time">09/28</span></a></li>
+                        <li><a href="#"><span>[新聞]俠客風雲傳前傳幽冥路預熱活動開啓！</span><span class="time">09/28</span></a></li>
+                        <li><a href="#"><span>[新聞]新模式！新玩法！幽冥路解析</span><span class="time">09/19</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳》新年獻禮，全新限量周邊感恩發布</span><span class="time">09/28</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳》本體更新預告</span><span class="time">09/15</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳：幽冥路》最新人設曝光！</span><span class="time">09/11</span></a></li>
+                        <li><a href="#"><span>[新聞]《俠客風雲傳前傳》DLC幽冥路，正式公布！</span><span class="time">09/06</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--游戏资料-->
+    <div class="data con">
+        <div class="data-title">
+            遊戲資料
+            <fonts>DATA</fonts>
+        </div>
+        <div class="data-con one">
+            <div class="data-con-tab fl">
+                <li class="active">角色介紹</li>
+                <li>遊戲背景</li>
+                <li>門派介紹</li>
+                <li>幽冥豪俠</li>
+            </div>
+            <div class="data-con-list fl">
+                <div class="data-con-list-item active" id="character">
+                    <div class="character-tab-bar">
+                        <i class="active"><img src="images/index/character_1_btn.png"/></i>
+                        <i><img src="images/index/character_2_btn.png"/></i>
+                        <i><img src="images/index/character_3_btn.png"/></i>
+                        <i><img src="images/index/character_4_btn.png"/></i>
+                        <i><img src="images/index/character_5_btn.png"/></i>
+                        <i><img src="images/index/character_6_btn.png"/></i>
+                    </div>
+                    <div class="character-info">
+                        <div class="character-info-con active">
+                            <p class="character-name">衛紫绫</p>
+                            <p>谷月軒和荊棘在洛陽遇到的神秘少女，一開始女扮男裝，之後恢複女裝，背景神秘！與二人爲解開種種謎團而遊曆江湖！</p>
+                            <a href="#">查看更多+</a>
+                        </div>
+                        <div class="character-model wzl active"></div>
+                        <div class="character-info-con">
+                            <p class="character-name">傅劍寒</p>
+                            <p>無師自通的劍術奇才，無意中得到一本兵書從其中兵法創出一套劍法，名爲雜燴劍法，爲人豪邁，講義氣，愛好喝酒。</p>
+                            <a href="#">查看更多+</a>
+                        </div>
+                        <div class="character-model fjh"></div>
+                        <div class="character-info-con">
+                            <p class="character-name">谷月軒</p>
+                            <p>“遼東大俠”谷雲飛之子，逍遙谷第四代大弟子，爲人端方斯文，一身正氣！因内功精純，無瑕子多傳其拳法功夫！</p>
+                            <a href="#">查看更多+</a>
+                        </div>
+                        <div class="character-model gyx"></div>
+                        <div class="character-info-con">
+                            <p class="character-name">荊棘</p>
+                            <p>逍遙谷第四代二弟子，個性倨傲，容易沖動!典型的刀子嘴豆腐心！雙手分使刀劍，潛力驚人！</p>
+                            <a href="#">查看更多+</a>
+                        </div>
+                        <div class="character-model jj"></div>
+                        <div class="character-info-con">
+                            <p class="character-name">蕭複</p>
+                            <p>在“法外十日”血案中，弦劍山莊唯一的幸存者，之後一心想要揪出幕後兇手，然後複仇！</p>
+                            <a href="#">查看更多+</a>
+                        </div>
+                        <div class="character-model xf"></div>
+                        <div class="character-info-con">
+                            <p class="character-name">衛紫绫</p>
+                            <p>峨嵋派弟子，爲了尋找丢失的本派武功至寶下山。之前從未與男性打過交道，所以與衆人鬧出了許多笑話。</p>
+                            <a href="#">查看更多+</a>
+                        </div>
+                        <div class="character-model spp"></div>
+                    </div>
+                </div>
+                <div class="data-con-list-item" id="story">
+                    <p>武林時至亂世，中原既有少林，峨眉，武當等名門正派，亦有酆都這樣的邪教異端。近年外族勢力天龍教也對中原虎視眈眈。</p>
+                    <p>在大英雄小蝦米神秘失蹤後已經過去了100多年，江湖上又偶有勢力相争，意圖武林霸主之位。</p>
+                    <p>此時，朝廷突發《法外三旬》法令，官府将不再過問江湖仇殺。一時間，各門各派人人自危，屠殺滅門慘案更是舉不勝舉！</p>
+                    <p>谷月軒及荊棘奉師傅之命外出查探此事，意外結識神秘少女衛紫绫三人結伴爲解開這一切的幕後黑手而闖蕩江湖，漸漸的他們發現，這并不是簡單的江湖仇殺，而在這一切的背後，似乎有一隻大手，正在操縱這一切！</p>
+                </div>
+                <div class="data-con-list-item" id="school">
+                    <div class="school-tab-bar">
+                        <i class="active"><img class="normal" src="images/index/school_1.png"/><img class="hover" src="images/index/school_1_hl.png"/></i>
+                        <i><img class="normal" src="images/index/school_2.png"/><img class="hover" src="images/index/school_2_hl.png"/></i>
+                        <i><img class="normal" src="images/index/school_3.png"/><img class="hover" src="images/index/school_3_hl.png"/></i>
+                        <i><img class="normal" src="images/index/school_4.png"/><img class="hover" src="images/index/school_4_hl.png"/></i>
+                        <i><img class="normal" src="images/index/school_5.png"/><img class="hover" src="images/index/school_5_hl.png"/></i>
+                        <i><img class="normal" src="images/index/school_6.png"/><img class="hover" src="images/index/school_6_hl.png"/></i>
+                        <a href="#" target="_blank">查看更多</a>
+                    </div>
+                    <div class="school-info">
+                        <!--1-->
+                        <div class="school-info-con active">
+                            <div class="school-info-con-top">
+                                <p class="b-font">逍遥谷</p>
+                                <p>江湖少侠</p>
+                                <div class="s-ww">
+                                    江湖威望&nbsp;:&nbsp;
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <em>逍遙派是武林中神秘的門派，收徒看重其資質和機緣，因此整個門派人數并不多！但這不影響它在江湖上的地位，逍遙派的門人不僅身懷絕世武功，醫蔔星相，琴棋書畫，機械雜工，鬥酒唱曲，更是無所不通，無所不精</em>
+                        </div>
+                        <div class="school-behalf xyg active"></div>
+                        <!--2-->
+                        <div class="school-info-con">
+                            <div class="school-info-con-top">
+                                <p class="b-font">武当</p>
+                                <p>江太极两仪</p>
+                                <div class="s-ww">
+                                    江湖威望&nbsp;:&nbsp;
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <em>武当是张三丰张真人所创门派，百年来一直屹立在中华大地武学的巅峰位置。武当派内功讲究阴阳两合，太极自然！武学讲究以静制动，以柔克刚，以短胜长，以慢击快！</em>
+                        </div>
+                        <div class="school-behalf wd"></div>
+                        <!--3-->
+                        <div class="school-info-con">
+                            <div class="school-info-con-top">
+                                <p class="b-font">峨眉</p>
+                                <p>剑似柔水</p>
+                                <div class="s-ww">
+                                    江湖威望&nbsp;:&nbsp;
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <em>郭靖之女郭襄所创之峨嵋派，门下多为女子，江湖流传其拥有“九阴”“九阳”两大绝世功法的残篇！峨嵋派弟子大多使用轻盈的剑作为武器，而长时间待在山上不接触世人的后果就是，他们往往有些天真和单纯！</em>
+                        </div>
+                        <div class="school-behalf em"></div>
+                        <!--4-->
+                        <div class="school-info-con">
+                            <div class="school-info-con-top">
+                                <p class="b-font">少林</p>
+                                <p>禅宗祖庭</p>
+                                <div class="s-ww">
+                                    江湖威望&nbsp;:&nbsp;
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <em>少林号称“天下第一名刹”乃中原武林正道之楷模，包括曾经生擒天龙教教主厉苍天，一直引领武林正道。武学有少林七十二绝技，更有在这之上的易筋、洗髓二经，得之任一便可独步武林。</em>
+                        </div>
+                        <div class="school-behalf sl"></div>
+                        <!--5-->
+                        <div class="school-info-con">
+                            <div class="school-info-con-top">
+                                <p class="b-font">弦剑</p>
+                                <p>一萧一剑</p>
+                                <div class="s-ww">
+                                    江湖威望&nbsp;:&nbsp;<i></i><i></i><i></i>
+                                </div>
+                            </div>
+                            <em>弦剑山庄，顾名思义此庄门人皆文武双修，通音律，善歌赋！弦剑山庄的武学讲究以音律御剑，剑上可奏五音。是故，萧复本人亦即为精擅音律，尤以琴、箫为佳。</em>
+                        </div>
+                        <div class="school-behalf xj"></div>
+                        <!--6-->
+                        <div class="school-info-con">
+                            <div class="school-info-con-top">
+                                <p class="b-font">游侠</p>
+                                <p>侠义长存</p>
+                                <div class="s-ww">
+                                    江湖威望&nbsp;:&nbsp;<i></i><i></i>
+                                </div>
+                            </div>
+                            <em>他们本无门派或者因故成为了浪迹天涯之人，他们中有好人亦有恶人，在游历江湖之时，独善其身的他们有着怎样的奇遇，或者又是何种遭遇让他们放弃了曾经的荣光，一切等着你去发现！</em>
+                        </div>
+                        <div class="school-behalf yx"></div>
+                    </div>
+                </div>
+                <div class="data-con-list-item" id="dlc">
+                    <p>数十年前，闽越武师阎丹生出海遇难，万幸之中漂流至世外阿鼻岛，潜心修炼成了先辈藏于此地的江湖至高心法-无间大法。时间流逝，江湖上出现了一名人称“虬髯客”的东海侠士。</p>
+                    <p>在动荡的世道，必定会有胸怀理想，愿意为一个和平的未来而努力之人。</p>
+                    <p>当虬髯客踏出孤岛，当西域邪教与东海倭寇两面围攻中原，酆都，也开始在历史上斩开了属于自己的足迹……</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--江湖映畫1-->
+    <div class="a-f-i con clearfix">
+        <!--江湖映画-->
+        <div class="art fl">
+            <div class="art-title">江湖映画<fonts>ART</fonts></div>
+            <div class="art-con">
+                <div class="art-top-tab">
+                    <i class="active">截图</i>
+                    <i>壁纸</i>
+                    <i>原画</i>
+                    <i>视频</i>
+                </div>
+                <ul class="active">
+                    <li class="art-item active"><a href="#"><img src="images/index/index_jt_01.jpg"><span>游戏截图1</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_jt_02.jpg"><span>游戏截图2</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_jt_03.jpg"><span>游戏截图3</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_jt_04.jpg"><span>游戏截图4</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_jt_05.jpg"><span>游戏截图5</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_jt_06.jpg"><span>游戏截图6</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_jt_07.jpg"><span>游戏截图7</span></a></li>
+                </ul>
+                <ul>
+                    <li class="art-item active"><a href="#"><img src="images/index/index_bz_01.jpg"><span>游戏壁纸1</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_bz_02.jpg"><span>游戏壁纸2</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_bz_03.jpg"><span>游戏壁纸3</span></a></li>
+                </ul>
+                <ul>
+                    <li class="art-item active"><a href="#"><img src="images/index/index_yh_01.jpg"><span>游戏原话1</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_yh_02.jpg"><span>游戏原话2</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_yh_03.jpg"><span>游戏原话3</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_yh_04.jpg"><span>游戏原话4</span></a></li>
+                </ul>
+                <ul>
+                    <li class="art-item active"><a href="#"><img src="images/index/index_sp_01.jpg"><span>游戏视频1</span></a></li>
+                    <li class="art-item"><a href="#"><img src="images/index/index_sp_02.jpg"><span>游戏视频2</span></a></li>
+                </ul>
+                <b class="l-btn"></b>
+                <b class="r-btn"></b>
+            </div>
+        </div>
+        <!--游戏特色-->
+        <div class="feature fl">
+            <div class="art-title">游戏特色<fonts>FEATURE</fonts></div>
+            <div class="feature-con">
+                <div class="feature-con-btn time-sys">
+                    <i></i>
+                    <a href="#">时序系统</a>
+                </div>
+                <div class="feature-con-btn team-sys">
+                    <i></i>
+                    <a href="#">组队系统</a>
+                </div>
+                <div class="feature-con-btn fight-sys">
+                    <i></i>
+                    <a href="#">天赋系统</a>
+                </div>
+                <div class="feature-con-btn music-sys">
+                    <i></i>
+                    <a href="#">原声音乐</a>
+                </div>
+                <div class="feature-con-btn wtf-sys">
+                    <i></i>
+                    <a href="#">幽冥路特色专题</a>
+                </div>
+            </div>
+        </div>
+        <!--官方互动-->
+        <div class="interaction fl">
+            <div class="art-title">官方互动<fonts>INTERACTION</fonts></div>
+            <div class="int-con">
+                <div class="int-con-top">
+                    <ul style="left:0px">
+                        <li>
+                            <p>《侠客风云传》①群：379062911</p>
+                            <p>《侠客风云传》②群：434341495</p>
+                        </li>
+                        <li>
+                            <p>《侠客风云传》③群：478698919</p>
+                            <p>《侠客风云传》④群：417511776</p>
+                        </li>
+                        <li>
+                            <p>《侠客风云传》⑤群：490477804</p>
+                            <p>《侠客风云传》⑥群 542123498</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="int-con-mid">
+                    <div class="gf_wx">
+                        <a href="javascript:void(0)">
+                            <img src="images/index/wechat.png">
+                            <p>官方微信</p>
+                        </a>
+                    </div>
+                    <div class="gf_wb">
+                        <a href="#">
+                            <img src="images/index/weibo.png">
+                            <p>官方微博</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="int-con-btm">
+                    <p class="b-font">商务合作</p>
+                    <p>联系&nbsp;:&nbsp;赵晨辰</p>
+                    <p>电话&nbsp;:&nbsp;0571-88376076-815</p>
+                    <p>传真&nbsp;:&nbsp;0571-88376076</p>
+                </div>
+                <div class="weixin-qd" style="display: none;">
+                    <img src="images/index/qrcode.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--江湖映畫2-->
+    <div class="y-b-s con clearfix">
+        <div class="yonkoma">
+            <div><p class="b-font">逗趣四格</p><p>DOUQUSIGE</p></div>
+            <a href="funny.html" target="_blank">点击进入</a>
+        </div>
+        <div class="bbs">
+            <div><p class="b-font">游戏论坛</p><p>YOUXILUNTAN</p></div>
+            <a href="#">点击进入</a>
+        </div>
+        <div class="service">
+            <div>
+                <p class="b-font">客服中心</p>
+                <p>KEFUZHONGXIN</p>
+            </div>
+            <a href="#">点击进入</a>
+        </div>
+    </div>
+    <!--footer-->
+    <footer></footer>
+</div>
+<!--<script  type="text/javascript" src=index-carouser-javascript.js"></script>-->
+<script  type="text/javascript" src="js/index.js"></script>
+<!--<script  type="text/javascript" src="js/index-00.js"></script>-->
+<script  type="text/javascript" src="js/index-carousel-jquery.js"></script>
+<script type="text/javascript" src="js/foot.js"></script>
+</body>
+</html>
