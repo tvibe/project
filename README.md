@@ -1,5 +1,5 @@
 # xiake
-#仿仿写侠客风云传官网
+#仿写侠客风云传官网
 
 运用技术：HTML、CSS、JS、jQuery、Ajax、PHP、mysql
 
