@@ -1,0 +1,18 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS xiake;
+CREATE DATABASE xiake CHARSET=UTF8;
+USE xiake;
+
+#创建用户表
+CREATE TABLE xk_user(
+  uid INT PRIMARY KEY AUTO_INCREMENT,
+  uname VARCHAR(32),
+  upwd VARCHAR(32),
+  avatar VARCHAR(128),
+  user_name VARCHAR(32)
+);
+INSERT INTO xk_user VALUES
+(NULL,'dingding','yy123456','img/login/default.png', '丁丁'),
+(NULL,'dangdang','yy123456','img/login/default.png', '当当'),
+(NULL,'doudou','yy123456','img/login/default.png', '豆豆'),
+(NULL,'yaya','yy123456','img/login/default.png', '丫丫');
