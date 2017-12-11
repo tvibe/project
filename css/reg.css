@@ -1,0 +1,66 @@
+/*common*/
+* {
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #111;
+}
+body {
+    _margin: 0;
+    _height: 100%;
+    padding: 0px;
+}
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+ol, ul {
+    list-style: none;
+}
+input, textarea {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body, textarea, pre, input {
+    font: 12px/1.6 tahoma,arial,sans-serif;
+}
+a img {
+    vertical-align: middle;
+}
+#body {
+    width: 900px;
+    margin: 0 auto;
+}
+.reg_hd {
+    padding: 27px 0 33px;
+}
+.reg_hd .logo_img {
+    display: inline-block;
+    width: 238px;
+    height: 74px;
+}
+.reg_bd_other {
+    padding: 0 30px 30px 30px;
+}
+.reg_bd {
+    height: auto;
+    min-height: 480px;
+    overflow: visible;
+}
+.reg_bd {
+    border: 1px solid #dcdcdc;
+    padding: 20px 0 0 40px;
+    height: 480px;
+}
+

@@ -1,0 +1,126 @@
+html,body{
+    width:100%;
+    min-height:100%;
+    margin: 0;
+}
+body{
+    /*background:url("../images/login/Bgc.jpg") no-repeat top center;*/
+    background-size:contain;
+    background-color: #fff;
+    /*width:100%;min-width:800px;background:url("../images/login/Bgc.jpg") no-repeat scroll center top ;overflow:hidden;*/
+}
+.logo{
+    margin: 20px  0px ;
+}
+#inner{
+    width:633px;
+    /*padding-top:70px;*/
+    /*margin-top: 90px;*/
+}
+#inner .form{
+    width:100%;
+    /*background: url("../images/info/scenebg.jpg") no-repeat;*/
+    height:400px;
+    border: 1px solid ;
+}
+#inner .main{
+    width:300px;
+    color:#666;
+    /*margin-left:92px;*/
+    font-size: 15px;
+    padding-top:40px;
+}
+#inner .main .form-group{
+    height:90px;
+}
+#inner  .vail{
+    height:24px;
+    line-height: 24px;
+    font-size: 12px;
+    display: inline-block;
+    color:#ccc;
+}
+#inner  .vail i{
+    width:24px;
+    height:24px;
+    background: url("../images/login/vail.png");
+    float: left;
+}
+#inner  .vail i.success{
+    background-position:-1px -3px;
+}
+#inner .vail i.fail{
+    background-position:-36px -3px;
+}
+#inner .checkbox{
+    font-size: 12px;
+    line-height: 19px;
+}
+#inner .main .lcon ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#inner .main .lcon li{
+    margin:0 10px;
+    cursor: pointer;
+}
+#inner .main .lcon li img{
+    width:50px;
+    border-radius: 50%;
+    border:3px solid transparent;
+}
+#inner .main .lcon li.active img{
+    border:3px solid #4dc71f;
+}
+#inner .main .lcon li:hover img{
+    border:3px solid #4dc71f;
+}
+#inner .main .label{
+    display: block;
+    margin-bottom:10px;
+}
+#inner .main .form-group input{
+    padding: 5px 30px 5px 10px;
+    width: 232px;
+    line-height: 1.62;
+    border: 1px solid #ccc;
+    height: 24px;
+}
+#inner .main input.active{
+    border:1px solid red;
+}
+#login{
+    width: 272px;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    margin-top:20px;
+    cursor: pointer;
+}
+#inner .vail.animate{
+    animation:shake .8s;
+}
+#inner .direction{
+    text-align: right;
+    padding-right:55px;
+}
+#inner .direction a{
+    display: inline-block;
+    color:#fea701;
+}
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    }
+}
